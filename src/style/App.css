@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(54, 54, 54) !important;
+}
+
+header {
+  width: 100%;
+}
+
+.fs-4 {
+  color: white;
+  margin-left: 150px;
+}
+
+.nav-pills {
+  margin-right: 50px;
+}
+
+html, body, .container{
+  background-color: #1d1d1d !important;
+}
+
+.fs-4 {
+  color: white !important;
+}
+
+footer {
+  color: white !important;
+}
+
+.col {
+  align-items: flex-end;
+}
+
+.py-5 {
+  display: flex;
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  justify-content: flex-end;
+}
+
+.test {
+  color: var(--bs-secondary) !important;
+}
+
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */ 
+@media only screen and (min-device-width: 320px) 
+and (max-device-width: 480px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+  footer {
+    color: red !important;
+  }
+} 
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */ 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-color: aqua;
+  }
+} 
+
+/* ----------- Google Pixel ----------- */ 
+@media screen and (device-width: 360px) 
+and (device-height: 640px) {
+
+  footer {
+    color: red !important;
+    background-color: greenyellow;
+  }
+
+}
